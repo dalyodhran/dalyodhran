@@ -40,12 +40,7 @@
 
 ---
 
-<details>
-  <summary>:zap: Github Stats</summary>
-
-  <img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.dalyodhran.vercel.app/api?username=dalyodhran&show_icons=true&hide_border=true" />
-
-</details>
+<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.dalyodhran.vercel.app/api?username=dalyodhran&show_icons=true&hide_border=true" />
 
 [stackoverflow]: https://stackoverflow.com/users/9814179/odhrán-daly
 [linkedin]: https://www.linkedin.com/in/odhrán-daly-47349bb1/
