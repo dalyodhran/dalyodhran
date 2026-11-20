@@ -1,46 +1,34 @@
-### Hi there, I'm Odhrán 👋
+## Hi, I'm Odhrán 👋
 
-- I’m currently working for Guidewire as a Software Engineer!
-- I'm also developing applications in Augmented Reality.
-- 2020 Goals: Publish a multiplayer Augmented Reality game.
+**Senior Full Stack Software Engineer & Technical Lead** · Vancouver, BC
 
-<!-- ### Spotify Playing 🎧
+I build and run backend systems where correctness matters, plus the web and mobile front ends on top of them. I'm currently Technical Lead at **UKG Shiftboard**, where my team builds the integration platform that moves schedule, timecard and clock-punch data into enterprise payroll systems.
 
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="codeSTACKr Spotify Playing" width="350" />](https://open.spotify.com/user/swyqyimdc12jajde4vpwd2x1b) -->
+[Portfolio](https://www.odhran.ca) · [LinkedIn](https://www.linkedin.com/in/odhrandaly) · odaly064@gmail.com
 
-### Other profiles:
+### What I work on
 
-[<img align="left" alt="Odhran's | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="stackoverflow" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/stackoverflow.svg" />][stackoverflow]
+- **UKG Shiftboard (2022 – now):** a horizontally scaling .NET integration service. Concurrent per-customer jobs run over RabbitMQ with idempotent processing, Redis caching and tuned SQL, and I'm leading the migration of per-tenant run locking from Redis to Microsoft Orleans. I'm on the team's on-call rotation, and features I designed drove $130k in new ARR.
+- **Guidewire (2019 – 2022):** Java and Spring Boot microservices for cloud customers. Cut customer update time from 3 months to 2 hours, and shipped the Log4j zero-day patch to 66 cloud environments in 72 hours.
+- **AI-assisted development:** I use Claude Code every day, at work and on my own projects, and introduced agentic workflows into my team's development process.
 
-<br />
+### Featured project: Rec Pass Hub
 
-### Languages and Tools:
+A full-stack discovery and pass management platform I designed and built end to end. It runs in Docker on a Kubernetes cluster I built at home, with Stripe for payments.
 
-<img align="left" alt="Java" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" />
-<img align="left" alt="spring boot" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/spring-boot/spring-boot.png" />
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img align="left" alt="react" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img align="left" alt="swift" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/swift/swift.png" />
-<img align="left" alt="xcode" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/xcode/xcode.png" />
-<img align="left" alt="csharp" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" />
-<img align="left" alt="unity" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/unity/unity.png" />
-<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
-<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />
-<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
-<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-<img align="left" alt="docker" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />
-<img align="left" alt="kubernetes" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png" />
+| Repo | What it is | Stack |
+|---|---|---|
+| [recpasshub-service](https://github.com/dalyodhran/recpasshub-service) | Backend API for events, passes, waivers and users | Java · Spring Boot · PostgreSQL · Redis · Keycloak (OAuth2) |
+| [recpasshub-app](https://github.com/dalyodhran/recpasshub-app) | Mobile app for attendees and organizers, with passes, QR check-in scanning, waivers and maps | React Native (Expo) · TypeScript |
+| [recpasshub-ui](https://github.com/dalyodhran/recpasshub-ui) | Organizer web dashboard | React · TypeScript · Vite |
+| [recchubpass-docker](https://github.com/dalyodhran/recchubpass-docker) | Supporting services: Keycloak, PostgreSQL, Redis cluster, Prometheus and Grafana | Docker Compose |
 
-<br />
-<br />
+### Tech
 
----
+- **Backend:** Java, Spring Boot, C# / .NET, Microsoft Orleans, REST APIs, microservices, event-driven design
+- **Data and messaging:** PostgreSQL, SQL, Redis, RabbitMQ
+- **Front end:** React, TypeScript, React Native, Angular
+- **Cloud and ops:** AWS (Certified Developer – Associate), Azure, Docker, Kubernetes, Terraform, Prometheus, Grafana
+- **Auth:** Keycloak, OAuth2 / OIDC, role-based access control
 
-<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.dalyodhran.vercel.app/api?username=dalyodhran&show_icons=true&hide_border=true" />
-
-[stackoverflow]: https://stackoverflow.com/users/9814179/odhrán-daly
-[linkedin]: https://www.linkedin.com/in/odhrán-daly-47349bb1/
+Outside of code, I run marathons.
